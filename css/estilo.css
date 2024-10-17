@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+.secao-celular {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem-celular {
+    width: 500px;
+    margin: 0 10px;
+    margin-left: 100px;
+}
+
+.secao-login {
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.caixa-login h1 {
+    font-family: 'Billabong', cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.perfil {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.botao-login {
+    background-color: #0095f6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.remover-conta {
+    display: block;
+    color: #00376b;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.alternar-conta {
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.alternar-conta a {
+    color: #00376b;
+    text-decoration: none;
+}
+
+.secao-download {
+    margin-top: 30px;
+}
+
+.secao-download p {
+    margin-bottom: 10px;
+}
+
+.botoes-download img {
+    width: 120px;
+    margin: 0 5px;
+}
